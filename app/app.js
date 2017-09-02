@@ -50,8 +50,7 @@ class App extends React.Component {
                             raised
                             color="primary"
                             onClick={this.handleSearch}
-                        >
-                            请搜
+                        >在这停顿
                         </Button>
                     </div>
                 </div>
