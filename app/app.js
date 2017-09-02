@@ -12,6 +12,8 @@ import style from './app.less'
 // Material-UI
 import TextField from 'material-ui/TextField'
 import Button from 'material-ui/Button'
+// Components
+import Github from './components/github'
 
 class App extends React.Component {
     constructor(props){
@@ -29,6 +31,11 @@ class App extends React.Component {
     render() {
         return (
             <div className={style.app}>
+
+                {/*项目链接*/}
+                <div className={style.floatButton}>
+                    <Github/>
+                </div>
 
                 <div>
                     <h1 className={style.title}>搜索咸鱼</h1>
